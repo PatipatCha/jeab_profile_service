@@ -1,3 +1,8 @@
 package repositories
 
-type ProfileRepository interface{}
+type ProfileRepository interface {
+	FindAll()
+	// FindOne()
+	// Save()
+	// Update()
+}
