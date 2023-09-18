@@ -2,14 +2,14 @@ package pg
 
 import "github.com/PatipatCha/sgoc_account_service/internal/domain/repositories"
 
-type PgRepository struct {
+type PostgresRepository struct {
 }
 
-func NewPgRepository() repositories.ProfileRepository {
+func NewPostgresRepository() repositories.ProfileRepository {
 	return &PgRepository{}
 }
 
-func (s *PgRepository) FindAll() {
+func (s *PostgresRepository) FindAll() {
 	panic("unimplemented")
 }
 

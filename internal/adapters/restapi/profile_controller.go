@@ -3,7 +3,7 @@ package restapi
 import (
 	"fmt"
 
-	"github.com/PatipatCha/sgoc_account_service/internal/domain/services"
+	"github.com/PatipatCha/sgoc_account_service/internal/application/services"
 )
 
 type ProfileController struct {
